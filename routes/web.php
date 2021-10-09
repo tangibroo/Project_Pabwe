@@ -32,3 +32,28 @@ Route::get('biodata', 'MahasiswaController@index');
 Route::get('home', function(){
     return view('home');
 });
+
+Route::get('visimisi', function(){
+    return view('visimisi');
+});
+Route::get('tujuan-sasaran', function(){
+    return view('tujuan-sasaran');
+});
+Route::get('struktur-organisasi', function(){
+    return view('struktur');
+});
+Route::get('capaian-pembelajaran', function(){
+    return view('capaian-pembelajaran');
+});
+Route::get('profil-lulusan', function(){
+    return view('profil-lulusan');
+});
+Route::get('sitemaps', function(){
+    return view('sitemaps');
+});
+Route::get('contact', function(){
+    return view('contact');
+});
+Route::get('news', function(){
+    return view('news');
+});
